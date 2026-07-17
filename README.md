@@ -170,7 +170,7 @@ This ensures:
 
 ```bash
 # Clone Repository
-git clone < https://github.com/krish985/Paytm_v1.git >
+git clone https://github.com/krish985/Paytm_v1.git 
 
 # Install Frontend Dependencies
 npm install
