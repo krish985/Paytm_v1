@@ -5,7 +5,7 @@ import BASE_URL from "../utils/constant";
 import BottomMessage from "../components/BottomMesaage";
 import Button from "../components/Button";
 import InputBox from "../components/InputBox";
-import TopHeading from "../components/Topheading";
+import TopHeading from "../components/TopHeading";
 import axios from "axios";
 
 
