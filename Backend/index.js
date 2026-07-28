@@ -17,6 +17,12 @@ app.use(express.json())  // Parse the incoming json data.
 
 
 // Any request came , that have prefix called api/v1 redirect to this middleware.
+
+app.get('/' , function(req,res){
+    res.status(200).json({
+        message : "Health Check route is fine"
+    })
+})
 app.use('/api/v1' , rootRouter)
 
 
